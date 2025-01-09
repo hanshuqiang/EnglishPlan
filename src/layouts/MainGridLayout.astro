@@ -23,14 +23,14 @@ const hasBannerLink = !!siteConfig.banner.credit.url
 
 <Layout title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle}>
 <slot slot="head" name="head"></slot>
-<div id="top-row" class="z-50 pointer-events-none relative transition-all duration-700 max-w-[var(--page-width)] px-0 md:px-4 mx-auto" class:list={[""]}>
+<div id="top-row" class="z-50 pointer-events-none relative transition-all duration-700  px-0 md:px-4 mx-auto" class:list={[""]}>
     <div id="navbar-wrapper" class="pointer-events-auto sticky top-0 transition-all">
         <Navbar></Navbar>
     </div>
 </div>
 
 <div class="absolute w-full" class:list={[{"top-[30vh]": siteConfig.banner.enable, "top-[5.5rem]": !siteConfig.banner.enable}]}>
-    <div class="relative max-w-[var(--page-width)] mx-auto">
+    <div class="relative   mx-auto">
         <div id="main-grid" class="transition duration-700 w-full left-0 right-0 grid grid-cols-[17.5rem_auto] grid-rows-[auto_1fr_auto] lg:grid-rows-[auto]
     mx-auto gap-4 px-0 md:px-4"
         >

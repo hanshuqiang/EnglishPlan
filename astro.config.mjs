@@ -25,6 +25,7 @@ const oklchToHex = (str) => {
   const regex = /-?\d+(\.\d+)?/g
   const matches = str.string.match(regex)
   const lch = [matches[0], matches[1], DEFAULT_HUE]
+  // @ts-ignore
   return new Color("oklch", lch).to("srgb").toString({
     format: "hex",
   })

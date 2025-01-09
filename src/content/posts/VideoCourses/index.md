@@ -1,10 +1,10 @@
 ---
-title: Simple Guides for Fuwari
+title: this is VideoCourses
 published: 2024-04-01
 description: "How to use this blog template."
-image: "./cover.jpeg"
+image: ""
 tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+category: VideoCourses
 draft: false
 ---
 

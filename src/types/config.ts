@@ -57,11 +57,7 @@ export type ProfileConfig = {
   }[]
 }
 
-export type LicenseConfig = {
-  enable: boolean
-  name: string
-  url: string
-}
+ 
 
 export type LIGHT_DARK_MODE =
   | typeof LIGHT_MODE
