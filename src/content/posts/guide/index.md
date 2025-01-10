@@ -12,7 +12,7 @@ draft: false
 
 This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
 
-## Front-matter of Posts  [Wirte Posts](https://github.com/hanshuqiang/EnglishPlan/new/main/src/content/posts)
+## Front-matter of Posts   <a href="https://github.com/hanshuqiang/EnglishPlan/new/main/src/content/posts" target="_blank">Write Posts</a>
 
 ```yaml
 ---
